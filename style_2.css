@@ -1,0 +1,531 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgba(54, 54, 54, 0.411);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+
+    max-width: 1350px;
+    min-height: 1450px;
+
+
+    background-color: white;
+    display: grid;
+    grid-template-rows: 3% 5% 7% 43% 42%;
+
+
+}
+
+
+/*parte 1*/
+
+.parte1 {
+    display: grid;
+    grid-template-columns: 0.9fr 9fr 2fr 1fr 1fr 1fr;
+    background-color: #978b8b1f;
+}
+
+.encavesado1 {
+    background-image: url(jordan.png);
+    background-size: 23px;
+    background-position: 80% 60%;
+    background-repeat: no-repeat;
+    height: 30px;
+
+}
+
+.encavesado2 {
+    background-image: url(Converse-logo-3.png);
+    background-size: 27px;
+    background-position: 1.6% 58%;
+    background-repeat: no-repeat;
+
+    height: 30px;
+
+}
+
+.encavesado3 h1 {
+    font-size: 0.75rem;
+    margin-top: 6%;
+    margin-left: 10%;
+}
+
+
+.encavesado4 h1 {
+    font-size: 0.75rem;
+    margin-top: 11%;
+    margin-left: -42%;
+}
+
+.encavesado5 h1 {
+    font-size: 0.75rem;
+    margin-top: 11%;
+    margin-left: -80%;
+}
+
+.encavesado6 h1 {
+    font-size: 0.75rem;
+    margin-top: 11%;
+    margin-left: -42%;
+}
+
+.encavesado3 .lineacorta1 {
+    width: 0.1rem;
+    height: 0.7rem;
+    margin-top: -0.8rem;
+    margin-left: 8.3rem;
+    background-color: #000000;
+    position: absolute;
+}
+
+.encavesado4 .lineacorta2 {
+    width: 0.1rem;
+    height: 0.7rem;
+    margin-top: -0.8rem;
+    margin-left: 0.5rem;
+    background-color: #000000;
+    position: absolute;
+}
+
+.encavesado5 .lineacorta3 {
+    width: 0.1rem;
+    height: 0.7rem;
+    margin-top: -0.8rem;
+    margin-left: 2.4rem;
+    background-color: #000000;
+    position: absolute;
+}
+
+/*parte 2*/
+
+.parte2 {    
+    display: grid;
+    grid-template-columns: 1.3fr 3.9fr 0.6fr 0.5fr 0.8fr 1fr 2fr 0.5fr 0.5fr;
+}
+
+.parte2encabesa1 {
+    background-image: url(nike.png);
+    background-size: 80px;
+    background-position: 70% 45%;
+    background-repeat: no-repeat;
+    height: 60px;
+}
+
+.parte2encabesa2 h1 {
+    font-size: 0.9rem;
+    margin-top: 4%;
+    margin-left: 61%;
+}
+
+.parte2encabesa3 h1 {
+    font-size: 0.9rem;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+.parte2encabesa4 h1 {
+    font-size: 0.9rem;
+    margin-top: 30%;
+    margin-left: 23%;
+}
+
+.parte2encabesa5 h1 {
+    font-size: 0.9rem;
+    margin-top: 20%;
+    margin-left: 25%;
+}
+
+.parte2encabesa6 h1 {
+    font-size: 0.9rem;
+    margin-top: 16%;
+    margin-left: 25%;
+}
+
+
+
+.chance {
+    margin-top: 10px;
+    margin-left: 45px;
+    width: 180px;
+    height: 40px;
+
+    background-image: url(lupa.png);
+    background-size: 20px;
+    background-position: 7% 58%;
+    background-repeat: no-repeat;
+
+    border: 2px solid white; 
+    background-color: #ffffff; 
+    transition: background-color 0.01s ;
+
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.parte2encabesa8:hover,.parte2encabesa9:hover, .chance:hover {
+    background-color: #f1ebeb; 
+}
+
+
+.chance h1 {
+    font-size: 1rem;  
+    margin-left: -20%;
+    color: rgb(130, 135, 139);
+}
+
+.parte2encabesa8 {
+    margin-top: 10px;
+    margin-left: -4px;
+    width: 40px;
+    height: 40px;
+    border-radius: 45%;
+
+    background-image: url(corazon.png);
+    background-size: 22px;
+    background-position: 45% 58%;
+    background-repeat: no-repeat;
+
+    border: 2px solid white; 
+    background-color: #ffffff; 
+    transition: background-color 0.01s ;
+
+
+}
+.parte2encabesa9 {
+    margin-top: 10px;
+    margin-left: -28px;
+    width: 40px;
+    height: 40px;
+    border-radius: 45%;
+
+    background-image: url(carrito-de-compras.png);
+    background-size: 22px;
+    background-position: 45% 58%;
+    background-repeat: no-repeat;
+
+    border: 2px solid white; 
+    background-color: #ffffff; 
+    transition: background-color 0.01s ;
+
+
+}
+/*parte 3*/
+
+.parte3 {    
+    display: grid;
+    grid-template-columns: 1.1fr 1.5fr 0.3fr 1.7fr;
+    background-color: #978b8b1f;
+}
+
+.parte3cabeza1 h1 {
+    font-size: 1.5rem;      
+    margin-left: 95%;
+    margin-top: 8%;
+    color: rgb(136, 131, 131);
+}
+
+.parte3cabeza2 h1 {
+    font-size: 1rem;      
+    margin-left: 54%;
+    margin-top: 7%;
+    color: rgb(49, 49, 49);
+}
+
+.parte3cabeza3 h1 {
+    font-size: 0.7rem;     
+    text-decoration: underline; 
+    margin-left: 1%;
+    margin-top: 36%;
+    color: rgb(37, 37, 37);
+}
+
+
+.parte3cabeza4 h1 {
+    font-size: 1.5rem;      
+    margin-left: 31%;
+    margin-top: 5%;
+    color: rgb(136, 131, 131);
+}
+
+.parte3cabeza1 h1:hover, .parte3cabeza4 h1:hover{
+    color: rgb(0, 0, 0);
+}
+
+/*parte 4*/
+.parte4{
+    display: grid;
+    grid-template-columns: 13% 37% 50%;
+}
+.parte4parte2_1{
+    margin-top: 40px;
+}
+.parte4parte2_1 img {
+    width: 68px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    margin-bottom: 10px; 
+    display: block;
+    margin-left: 100px;
+    
+}
+
+.cuadro-imagen {
+    width: 540px;
+    height: 500px;
+   
+}
+
+.imagen-producto {
+    width: 490px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 7px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+
+.parte4parte2_3_1 h1{
+    font-size: 1.1rem;      
+    margin-left: 4.5%; 
+    margin-top: 6%;  
+    margin-bottom: 15%;
+    color: rgb(56, 56, 56);
+}
+.parte4parte2_3_1 h2{
+    font-size: 0.99rem;      
+    margin-left: 4.5%; 
+    margin-top: -13%;  
+    margin-bottom: 15%;
+    color: rgb(56, 56, 56);
+}
+.parte4parte2_3_1 h3{
+    font-size: 1.08rem;      
+    margin-left: 4.5%; 
+    margin-top: -10%;  
+    margin-bottom: 15%;
+    color: rgb(56, 56, 56);
+}
+
+.parte4parte2_3_2 img {
+    width: 68px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px; 
+    margin-bottom: 10px; 
+    display: block;
+    margin-top: -60px;
+    margin-left: 34px;
+    border: 1px solid rgb(24, 23, 23);
+    
+}
+.parte4parte2_3_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.parte4parte2_3_3_1 h1{
+    font-size: 1rem;      
+    margin-left: 10%; 
+    margin-top: 5%;  
+    margin-bottom: 15%;
+    color: rgb(56, 56, 56);
+}
+.parte4parte2_3_3_2 h1{
+    font-size: 1.01rem;      
+    margin-left:-12%; 
+    margin-top: 5%;  
+    margin-bottom: 15%;
+    color: rgb(138, 137, 137);
+}
+.parte4parte2_3_4 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px; 
+    padding: 10px;
+    margin-left: 25px;
+    margin-top: -55px;
+    margin-right: 55%;
+}
+
+.parte4parte2_3_4 button {
+    height: 45px;
+    width: 70px;
+    margin-top: 5px;
+
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    padding: 4px;
+    font-size: 15px;
+    cursor: pointer;
+
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px; 
+
+   
+}
+
+.parte4parte2_3_4 button.selected,.parte4parte2_3_4 button:hover {
+    border-color:rgb(24, 23, 23);
+}
+
+
+
+.parte4parte2_3_5, .parte4parte2_3_6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.parte4parte2_3_5 button, .parte4parte2_3_6 button {
+    
+    height: 60px;
+    width: 56%;
+    
+    margin-left: -230px;
+
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px; 
+
+    border: none;
+    
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+   
+    
+}
+
+.parte4parte2_3_5 button{
+    margin-top: 20px;
+    color: white;
+    background-color: #161616;
+} 
+.parte4parte2_3_6 button {
+    margin-top: -10px;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    border: 1px solid #97979b;
+}
+.parte4parte2_3_6 button:hover{
+    border: 1px solid #202020;
+}
+
+.parte4parte2_3_5 button:hover {
+    background-color: #4a4a4b; /* Color de fondo del botón en hover */
+}
+
+/*Parte 5*/
+
+.parte5 {
+    border: 1px solid rgb(231, 231, 231);
+    height: 100%;
+    display: grid;
+    grid-template-rows: 65% 15% 20%;
+}
+
+.parte5final1{
+display: grid;
+grid-template-columns: 20% 30% 10% 40%;
+}
+
+.parte5prte1_1 h1{
+    font-size: 0.9rem;      
+    margin-left: 18%; 
+    margin-top: 25%;  
+    margin-bottom: 15%;
+    color: rgb(63, 62, 62);
+}
+
+.parte5prte1_1 h2{
+    font-size: 0.9rem;      
+    margin-left: 18%; 
+    margin-top: 6%; 
+    color: rgb(121, 119, 119);
+}
+
+.parte5prte1_2 h1{
+    font-size: 0.9rem;      
+    margin-left: 24%; 
+    margin-top: 16%;  
+    margin-bottom: 10%;
+    color: rgb(63, 62, 62);
+}
+
+.parte5prte1_2 h2{
+    font-size: 0.85rem;      
+    margin-left: 24%; 
+    margin-top: 4.5%; 
+    color: rgb(121, 119, 119);
+}
+.parte5prte1_3 h1{
+    font-size: 0.9rem;      
+    margin-left: 4%; 
+    margin-top: 46%;  
+    margin-bottom: 30%;
+    color: rgb(63, 62, 62);
+}
+
+.parte5prte1_3 h2{
+    font-size: 0.85rem;      
+    margin-left: 4%; 
+    margin-top: 14%; 
+    color: rgb(121, 119, 119);
+}
+
+.esp {
+    margin-top: 48px;
+    margin-left: 79%;
+    width: auto; 
+    height: 40px; 
+    display: flex;
+    align-items: center; 
+    background-image: url(red-mundial.png);
+    background-size: 16px;
+    background-position: left center; 
+    background-repeat: no-repeat;
+    padding-left: 20px; 
+}
+
+.esp h1 {
+    font-size: 0.9rem;
+    margin: 0; 
+    color: rgb(121, 119, 119);
+}
+
+.parte5final2 h1{
+    font-size: 0.85rem;      
+    margin-left: 3.5%; 
+    margin-top: 5.5%; 
+    color: rgb(121, 119, 119);
+}
+
+.parte5final3 h1{
+    font-size: 0.85rem;      
+    margin-left: 3.5%; 
+    margin-top: 1.7%; 
+    color: rgb(121, 119, 119);
+}
