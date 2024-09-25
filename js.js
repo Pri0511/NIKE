@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
         {
             imagen: '1.png',
             loUltimo: 'Lo último',
-            nombre: 'Nike 1',
+            nombre: 'Nike 12',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
             precio: '149,99 €',
