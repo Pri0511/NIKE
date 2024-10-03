@@ -285,6 +285,9 @@ body {
     height: 100%;
     width: 100%;
 }
+.parte_1_3 p{
+   margin-left: 160px;
+}
 .contenedor_parte4{
     
     height: 270px;
