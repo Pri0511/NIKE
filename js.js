@@ -4,111 +4,111 @@ document.addEventListener("DOMContentLoaded", function () {
     const productos = [
         {
             imagen: '1.png',
-            loUltimo: 'Lo último',
-            nombre: 'Nike 12',
+            loUltimo: 'Materiales sostenibles',
+            nombre: 'Nike Air Max TW',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 149.99
+            precio: '103,99 €',
+            precio1: 103.99
         },
         {
             imagen: '2.png',
             loUltimo: 'Lo último',
-            nombre: 'Nike 2',
+            nombre: 'Nike Air Max Plus 3',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 120.99
+            precio: '132,99 € €',
+            precio1: 132.99
         },
         {
             imagen: '3.png',
             loUltimo: 'Lo último',
-            nombre: 'Nike 3',
+            nombre: 'Nike Air Force 1 Jewel',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 120.99
+            precio: '90,99 €',
+            precio1: 90.99
         },
         {
             imagen: '4.png',
             loUltimo: 'Lo último',
-            nombre: 'Nike 4',
+            nombre: 'Nike P-6000 Premium',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 120.99
+            precio: '119,99 €',
+            precio1: 119.99
         },
         {
             imagen: '5.png',
             loUltimo: 'Lo último',
-            nombre: 'Nike 5',
+            nombre: 'Nike React Vision',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 120.99
+            precio: '139,99 €',
+            precio1: 139.99
         },
         {
             imagen: '6.png',
             loUltimo: 'Lo último',
-            nombre: 'Nike 6',
+            nombre: 'Nike Air Max Plus Drift',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 120.99
+            precio: '129,99 €',
+            precio1: 129.99
         },
         {
             imagen: '7.png',
             loUltimo: 'Lo último',
-            nombre: 'Nike 7',
+            nombre: 'Nike Air Max Solo',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '120,99 €',
-            precio1: 120.99
+            precio: '65,99 €',
+            precio1: 65.99
         },
         {
             imagen: '8.png',
             loUltimo: 'Lo último',
-            nombre: 'Nike 8',
-            descripcion: 'Zapatillas - Hombre',
+            nombre: 'Nike Shox TL',
+            descripcion: 'Zapatillas',
             colores: '3 colores',
-            precio: '130,9 €',
-            precio1: 130.99
+            precio: '169,99 €',
+            precio1: 169.99
         },
         {
             imagen: '9.png',
-            loUltimo: 'Lo último',
-            nombre: 'Nike 9',
+            loUltimo: 'Producto para Members',
+            nombre: 'Nike Dunk Low',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 120.99
+            precio: '90,99 €',
+            precio1: 90.99
         },
         {
             imagen: '10.png',
-            loUltimo: 'Lo último',
-            nombre: 'Nike 10',
+            loUltimo: 'Materiales sostenibles',
+            nombre: 'Nike Dunk Low',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 120.99
+            precio: '90,99 €',
+            precio1: 90.99
         },
         {
             imagen: '11.png',
             loUltimo: 'Lo último',
-            nombre: 'Nike 11',
+            nombre: 'Nike Dunk Low',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 120.99
+            precio: '90,99 €',
+            precio1: 90.99
         },
         {
             imagen: '12.png',
-            loUltimo: 'Lo último',
-            nombre: 'Nike 12',
-            descripcion: 'Zapatillas - Hombre',
+            loUltimo: 'Materiales sostenibles',
+            nombre: 'Nike Juniper Trail 3',
+            descripcion: 'Zapatillas de trail running - Hombre',
             colores: '3 colores',
-            precio: '149,99 €',
-            precio1: 120.99
+            precio: '89,99 €',
+            precio1: 89.99
         },
         
     ];
@@ -383,7 +383,8 @@ function incrementarProducto(index) {
 
         // Actualizar el carrito en localStorage
         localStorage.setItem('carrito', JSON.stringify(carrito));
-
+     
+        
         // Volver a renderizar el carrito
         renderCarrito();
     }
