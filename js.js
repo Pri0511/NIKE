@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
             nombre: 'Nike Air Max Plus 3',
             descripcion: 'Zapatillas - Hombre',
             colores: '3 colores',
-            precio: '132,99 € €',
+            precio: '132,99 €',
             precio1: 132.99
         },
         {
